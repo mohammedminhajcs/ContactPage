@@ -1,0 +1,211 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #357ABD;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: end;
+}
+#resume
+{
+display: flex;
+flex-direction: column;
+}
+#greenbox
+{
+    background-color: green;
+    height: 50px;
+    margin-top: 2px;
+    color: white;
+}
+#greenbox h2
+{
+    text-align: right;
+    color: white;
+    margin-right: 50px;
+}
+#img
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#img1{
+    width: 150px;
+    height: 150px;
+   
+}
+#name{
+    color: white;
+    align-self: center;
+    margin-right: 50px;
+}
+#resume-body{
+    display: flex;
+    flex-direction: row;
+}
+#resume-head
+{
+    display: flex;
+    flex-direction: column;
+}
+#left-column
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: blue;
+}
+#right-column
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   background-color: green;
+}
+
+
+ 
+.resume-page {
+    height: 1300px;
+    width: 700px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 2px 2px 10px rgb(192, 192, 192);
+ 
+ 
+}
+ 
+.name-top-div {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(123, 180, 246);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    color: white;
+ 
+}
+ 
+.role-top-div {
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+}
+ 
+.profile-image {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+ 
+ 
+ 
+.roleheading {
+    margin-left: 20px;
+    color: white;
+ 
+}
+ 
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ 
+}
+ 
+.left-side {
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+ 
+}
+ 
+.right-side {
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+}
+ 
+.headings {
+    color: black;
+    margin-top: 50px;
+    text-align: start;
+ 
+}
+ 
+p {
+    text-align: start;
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+}
+ 
+.info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+li {
+    margin-top: 5px;
+}
+ 
+ 
+.education-card {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+ 
+}
+ 
+.education-card>div {
+ 
+    display: flex ;
+    flex-direction: column;
+    margin-left: 10px;
+}
+ 
+ 
+ 
+h5{
+    font-size: 16px;
+    margin: 0px;
+}
+ 
+h1 {
+    font-size: 60px;
+    margin-left: 150px;
+ 
+ 
+}
+ 
+.interest-div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+ 
+progress::-webkit-progress-value { background: blue; }
+ 
